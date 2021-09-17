@@ -19,7 +19,7 @@ function startTimer(duration, display){
 }
 
 window.onload = function(){
-    var duration = 60 * 4 //Conversão para segundos
+    var duration = 60 * 23.040 //Conversão para segundos
     var display = document.querySelector("#timer")//Elemento para exibir o timer
 
     startTimer(duration, display)//Inicia a função
